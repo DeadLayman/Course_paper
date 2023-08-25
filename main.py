@@ -6,7 +6,7 @@ from tqdm import tqdm
 class VKtoYD:
     vk_id = input('Введите id пользователя: ')
     yd_token = input('Введите токен YandexDisk: ')
-    vk_token = 'vk1.a.YeIHldSCNdNM3jX6hhkd_vqX6xSiqoUMikgPkO8QfabYsh3tCCGQu9BigtBw8o_5s5WYHsuxf-oafdcxjZm-8dniJzWSoIVgJzEi_tKrz0Jx1emU5UdfhnUVVBsbSY95taixcoUDEK5s52qz5AwGVVxwgOXrGHv3G-nFbon1PZ1bKm_LJOnB4PkedHlh4yr-ot0PHGQzevhu_675i16J5Q'
+    vk_token = ''
     BASE_URL = 'https://api.vk.com/method/'
     def __init__(self, vk_id= vk_id, yd_token= yd_token, token= vk_token, version= '5.131'):
         self.token = token
